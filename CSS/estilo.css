@@ -1,0 +1,369 @@
+/*--------------------GENERAL--------------------*/
+/*-----HEADER-----*/
+.head  {
+	position: fixed;
+	top: 0;
+	margin: auto;
+	width: 100%;
+	height: 10vh;
+	background-color: #0A1F34;
+	z-index: 5;
+}
+nav {
+	width: 100%;
+	height: 8vh;
+	padding-left: .5%;
+}
+.header__logo {
+	height: 10vh;
+	position: relative;
+	display: inline-block;
+}
+.header__menu {
+	display: inline-block;
+	position: absolute;
+	height: 8vh;
+	right: 0;
+	margin-right: .5%;
+}
+.header__menu li {
+	position: relative;
+	display: inline-block;
+	height: 8vh;
+	position: relative;
+	text-align: center;
+}
+.header__menu a{
+	position: relative;
+	display: inline-block;
+	height: 8vh;
+	margin-top: 1vh;
+	padding: 2.5vh 0.75em;
+	font-size: 1.25em;
+	font-family: 'Quicksand', sans-serif;
+	color: white;
+	text-decoration: none;
+	text-align: center;
+		
+}
+a i{
+	margin-right: 0.5vw;
+}
+
+/*-----EVENTOS HEADER-----*/
+.head li a:hover {
+	background-color: #D35400;
+	font-weight: bold;
+}
+
+/*-----BANNER-----*/
+.div-banner {
+	display: inline-block;
+	z-index: -1;
+	position: relative;
+	margin-top: 10vh;
+	display: block;
+	width: 100%;
+	height: 90vh;
+	background-color: #0A1F34;
+	font-family: 'Roboto', sans-serif;
+}
+.banner__img {
+	position: absolute;
+	width: 100%;
+	height: 100%;
+	opacity: 0.33;
+}
+.banner__h1 {
+	position: absolute;
+	display: block;
+	top: 0;
+	right: 0;
+	bottom: 0;
+	left: 0;
+	margin: auto;
+	margin-top: 10vw;
+	text-align: center;
+	color: white;
+	font-size: 2.5em;
+}
+.banner__h2 {
+	position: absolute;
+	display: block;
+	top: 0;
+	right: 0;
+	bottom: 0;
+	left: 0;
+	margin: auto;
+	margin-top: 15.5vw;
+	text-align: center;
+	color: white;
+	font-size: 1.9em;
+}
+.banner__arrow {
+	display: block;
+	position: absolute;
+	width: 20%;
+	height: 15%;
+	bottom: 0;
+	left: 0;
+	right: 0;
+	margin: auto;
+	margin-bottom: 5vh;
+}
+/*-----INTEGRANTES-----*/
+.div-team {
+	display: inline-block;
+	position: absolute;
+	width: 100%;
+	height: 50vh;
+	margin-top: 50vh;
+	text-align: center;
+	padding-top: 4vh;
+	padding-bottom: 4vh;
+	font-family: 'Roboto', sans-serif;
+	color: #0A1F34;
+	background-color: #F4F6F6;
+}
+.team__h2 {
+	font-size: 3.5vh;
+	font-weight: bold;
+}
+.team__name {
+	font-size: 2.75vh;
+}
+.team__mail {
+	font-size: 2vh;
+	font-weight: 100;
+}
+.teacher {
+	display: inline-block;
+	position: absolute;
+	width: 100%;
+	height: 30vh;
+	margin-top: 100vh;
+	text-align: center;
+	padding-top: 10vh;
+	padding-bottom: 4vh;
+	font-family: 'Roboto', sans-serif;
+	color: #0A1F34;
+	background-color: white;
+}
+
+/*-----TEMAS-----*/
+.div-temas {
+	display: inline-block;
+	position: absolute;
+	width: 100%;
+	height: 50vh;
+	text-align: center;
+}
+.div-temas .li-temas1 {
+	position: absolute;
+	display: inline-block;
+	left: 0;
+	margin-left: 10.5%;
+	width: 15%;
+	height: 100%;
+}
+.div-temas .li-temas2 {
+	position: absolute;
+	display: inline-block;
+	left: 0;
+	margin-left: 26.5%;
+	width: 15%;
+	height: 100%;
+}
+.div-temas .li-temas3 {
+	position: absolute;
+	display: inline-block;
+	left: 0;
+	margin-left: 42.5%;
+	width: 15%;
+	height: 100%;
+}
+.div-temas .li-temas4 {
+	position: absolute;
+	display: inline-block;
+	left: 0;
+	margin-left: 58.5%;
+	width: 15%;
+	height: 100%;
+}
+.div-temas .li-temas5 {
+	position: absolute;
+	display: inline-block;
+	left: 0;
+	margin-left: 74.5%;
+	width: 15%;
+	height: 100%;
+}
+.div-temas a{
+	position: relative;
+	display: inline-block;
+	width: 100%;
+	height: 40vh;
+	padding: 2.5vh 0.75em;
+	font-size: 1.25em;
+	font-family: 'Quicksand', sans-serif;
+	color: white;
+	text-decoration: none;
+	background-color: #0A1F34;
+	margin-top: 5vh;
+}
+.div-temas a:hover {
+	background-color: #D35400;
+	border-radius: 30px;
+	transition: 0.5s;
+}
+
+
+
+/*-----COMENTARIOS-----*/
+.formulario {
+	display: inline-block;
+	position: absolute;
+	width: 100%;
+	height: 50vh;
+	margin-top: 130vh;
+	padding-top: 4vh;
+	text-align: center;
+	background-color: #0A1F34;
+	color: white;
+	font-family: 'Quicksand', sans-serif;
+	font-size: 2.25vh;
+}
+.formulario h3 {
+	margin-bottom: 1.25vh;
+	font-weight: bold;
+}
+.formulario input {
+	outline: 0;
+	width: 25%;
+	margin-top: 0.3vh;
+	margin-bottom: 1.25vh;
+	font-weight: 100;
+}
+.formulario textarea {
+	width: 25%;
+	max-width: 25%;
+	height: 15vh;
+	max-height: 15vh;
+	outline: 0;
+	font-weight: 100;
+	margin-top: 0.3vh;
+	margin-bottom: 1.25vh;
+}
+.btn-send{
+	width: 7.5%;
+	height: 5vh;
+	background-color: white;
+	outline: 0;
+	background-color: #D35400;
+	border: 0;
+	color: white;
+	font-weight: bold;
+}
+
+
+
+
+/*--------------------850px--------------------*/
+/*-----HEADER-----*/
+@media  only screen and (max-width: 850px){
+	.head  {
+		display: inline-block;
+		left: 0;
+		position: fixed;
+		width: 25%;
+		height: 100%;
+	}
+	nav {
+		width: 100%;
+		height: 100%;
+		padding-top: 5%;
+	}
+	.header__logo {
+		position: absolute;
+		width: 95%;
+		height: 20vw;
+		left: 0;	
+		right: 0;
+		margin: auto;
+	}
+	.header__menu {
+		display: inline-block;
+		position: relative;
+		margin-top: 100%;
+		width: 100%;
+	}
+	.header__menu li {
+		position: relative;
+		width: 100%;
+	}
+	.header__menu a{
+		position: relative;
+		width: 100%;
+		height: 100%;
+		font-size: 100%;
+		font-family: 'Quicksand', sans-serif;
+		color: white;
+		text-decoration: none;
+	}
+	a i{
+		margin-right: 0.5vw;
+	}
+
+	/*-----EVENTOS HEADER-----*/
+	li a:hover {
+		background-color: #D35400;
+		font-weight: bold;
+	}
+
+	/*-----BANNER-----*/
+	.div-banner {
+		display: block;
+		position: absolute;
+		margin: 0;
+		margin-left: 25%;
+		width: 75%;
+		height: 35%;
+		background-color: #0A1F34;
+		font-family: 'Roboto', sans-serif;
+	}
+	.banner__img {
+		position: absolute;
+		width: 100%;
+		height: 100%;
+		opacity: 0.33;
+	}
+	.banner__h1 {
+		position: absolute;
+		display: block;
+		top: 0;
+		right: 0;
+		bottom: 0;
+		left: 0;
+		margin: auto;
+		margin-top: 10vw;
+		margin-bottom: 10vh;
+		text-align: center;
+		color: white;
+		font-size: 5vw;
+	}
+	.banner__h2 {
+		position: absolute;
+		display: block;
+		top: 0;
+		right: 0;
+		bottom: 0;
+		left: 0;
+		margin: auto;
+		margin-top: 17vw;
+		text-align: center;
+		color: white;
+		font-size: 3vw;
+	}
+}
+
+

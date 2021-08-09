@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<title>Unipaz</title>
+	<!--ESTILOS-->
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link rel="stylesheet" type="text/css" href="CSS/inicio.css">
+	<link rel="stylesheet" type="text/css" href="CSS/normalize.css">
+	<link rel="stylesheet" type="text/css" href="CSS/font-awesome.min.css">
+
+	<!--FUENTES-->
+	<link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
+	<link href="https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@100;300;400;500;700;900&display=swap" rel="stylesheet">
+	<link href="https://fonts.googleapis.com/css2?family=Quicksand:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+</head>
+<body>
+
+	<div class="head">
+		<nav>
+			<a href="index.html"><img src="IMG/logo.png"  class="header__logo"></a>  <!--IMG DEL LOGO-->
+			<div class="header__menu">
+				<li class="li-main">
+					<h4 id="h4mn">MENÚ</h4>
+					<ul>  <!--LISTA DE TEMAS(LINKS)-->
+						<li><a href="HTML/tema1.html"><i class="fa fa-book" aria-hidden="true"></i>Tema 1</a></li>
+						<li><a href="HTML/tema2.html"><i class="fa fa-book" aria-hidden="true"></i>Tema 2</a></li>
+						<li><a href="HTML/tema3.html"><i class="fa fa-book" aria-hidden="true"></i>Tema 3</a></li>
+						<li><a href="HTML/tema4.html"><i class="fa fa-book" aria-hidden="true"></i>Tema 4</a></li>
+						<li><a href="HTML/tema5.html"><i class="fa fa-book" aria-hidden="true"></i>Tema 5</a></li>
+					</ul>
+				</li>	
+			</div>
+		</nav>
+	</div>
+
+	<div class="div-banner">
+		<img src="IMG/books.jpg" class="banner__img">
+		<h1 class="banner__h1">Licenciatura en Trabajo Social</h1>
+		<h2 class="banner__h2">Administración General</h2>
+		<img src="IMG/down_arrow.png" class="banner__arrow">
+	</div>
+
+	<div class="div-temas">
+		<ol>
+			<li class="li-temas1"><a href="HTML/tema1.html">
+				<b>TEMA 1</b><br><br><br>
+				Auditoria administrativa
+				<br><br>
+				Control de calidad, calidad y costo
+				<br><br>
+				Control del tiempo presupuestario	
+			</a></li>
+			<li class="li-temas2"><a href="HTML/tema2.html"> 
+				<b>TEMA 2</b><br><br><br>
+				Evaluación de desempeño
+				<br><br>
+				Diferentes tipos de control	
+			</a></li>
+			<li class="li-temas3"><a href="HTML/tema3.html">
+				<b>TEMA 3</b><br><br><br>
+				Diseñar formatos de control
+				<br><br>
+				Analizar los diferentes tipos de control que utilizan las empresas
+			</a></li>
+			<li class="li-temas4"><a href="HTML/tema4.html">
+				<b>TEMA 4</b><br><br><br>
+				Teorías de la administración
+				<br><br>
+				Teoría general de los sistemas
+			</a></li>
+			<li class="li-temas5"><a href="HTML/tema5.html">
+				<b>TEMA 5</b><br><br><br>
+				Calidad total y desarrollo organizacional
+			</a></li>
+		</ol>
+	</div>
+
+	<div class="div-team">
+		<h2 class="team__h2">Autores</h2>
+		<br>
+		<br>
+		<h3 class="team__name">Ochoa Martínez Dana Sofía</h3>
+		<h3 class="team__mail">4691.dana@unipaz.edu.mx</h3>
+		<br>
+		<br>
+		<h3 class="team__name">Meza Arroyo Ximena Elizabeth</h3>
+		<h3 class="team__mail">4654.ximena@unipaz.edu.mx</h3>	
+		<br>
+		<br>
+		<h3 class="team__name">Niebla Aguilar Joselin Michelle</h3>
+		<h3 class="team__mail">4603.joselin@unipaz.edu.mx</h3>
+		<br>
+		<br>
+		<h3 class="team__name">Winkler Toledo Karen de Jesús</h3>
+		<h3 class="team__mail">4652.karen@unipaz.edu.mx</h3>
+	</div>
+
+	<div class="teacher">
+		<h2 class="team__h2">Docente</h2>
+		<br>
+		<h3 class="team__name">Mtra. María Alejandra Romero Fernández</h3>
+	</div>
+
+	<form name="contact" method="POST" data-netlify="true" class="formulario">
+		<h3>Comentarios</h3>
+		<p>
+		    <label class="lb-name">Nombre completo</label>
+		    <br>
+		    <input type="text" name="Nombre completo" />   
+		</p>
+		<p>
+		   	<label class="lb-email">Email</label> 
+		   	<br>
+		   	<input type="email" name="Email" />
+		</p>
+		<p>
+		   	<label class="lb-coment">Comentario</label> 
+		   	<br>
+		   	<textarea name="Comentario" ></textarea>
+		   	<br>
+		</p>
+		<p>
+		    <button type="submit" class="btn-send">Enviar</button>
+		</p>
+	</form>	
+</body>
+</html>
